@@ -1,0 +1,26 @@
+{
+    "name": "taozheng149/demo",
+    "description": "a test composer project",
+    "type": "project",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "taozheng",
+            "email": "taozheng149@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "application\\":"application/",
+            "demo\\":"demo/"
+        },        
+        "files":[
+            "demo/functions.php"
+        ]
+    }
+    
+}
